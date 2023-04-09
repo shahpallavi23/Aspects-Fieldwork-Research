@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using HTML,CSS & BOOTSTRAP Project</title> 
+<link rel="stylesheet" href="Bootstrap1.css">
+    <!--css link-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-- google fonts-->     
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<!--java link-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+ integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+<!--bootstrap link-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+ integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<body>
+<header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 border-bottom fixed-top fadeup">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">Techno-<span class="text-primary">web</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-end">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#services">SEO</a></li>
+                  <li><a class="dropdown-item" href="#services">Web Design</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#services">Graphics Design</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="image(1).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image(2).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+
+
+<div class="about" id="about">
+  <div class="container mt-5">
+     <div>
+      <h1 class="text-center">About<span class="text-primary"> me</span></h1>
+      <hr /  class="w-25 m-auto">
+      </div>
+      <div class="row">
+         <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+         <h1>What do you <span class="text-primary">want to know?</span></h1>
+         <p class="p-2">
+            Also known as primary research, qualitative analysis demands interaction and real-time data. This is the
+            process of collating
+            data that hasn’t been out there yet. Interviews, market research surveys, questionnaires, and more fall
+            under qualitative or
+            primary research.</p>
+
+           <button type="button" class=" mb-5">More about me</button>
+
+           <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+
+         </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 text-end m-auto">
+            <img src="image.jpg" alt="" srcset="" class="img-fluid">
+      </div>      
+  </div>     
+</div> 
+
+<div class="Services mt-5" id="services">
+  <h1 class="text-center">Our <span class="text-primary">Services</span></h1>
+  <hr / class="m-auto w-25">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="box rounded border col-sm-12 col-md-4 col-lg-4 col-12">
+        <i class="fa fa-users bg-primary text-white"></i>
+        <h5>Qualitative</h5>
+        <p>Also known as primary research, qualitative analysis demands interaction and real-time data. This is the process of collating data that hasn’t been out there yet. Interviews, market research surveys, questionnaires, and more fall under qualitative or primary research.</p>
+         <button type="button" class="bg-primary text-light">Click</button>
+      </div>
+      <div class="box rounded border  col-sm-12 col-md-4 col-lg-4 col-12">
+        <h5>Qualitative</h5>
+        <p>Also known as primary research, qualitative analysis demands interaction and real-time data. This is the process of collating data that hasn’t been out there yet. Interviews, market research surveys, questionnaires, and more fall under qualitative or primary research.</p>
+        <button type="button" class="bg-primary text-light">Click</button>
+      </div>
+      <div class="box rounded border  col-sm-12 col-md-4 col-lg-4 col-12">
+        <h5>Qualitative</h5>
+        <p>Also known as primary research, qualitative analysis demands interaction and real-time data. This is the process of collating data that hasn’t been out there yet. Interviews, market research surveys, questionnaires, and more fall under qualitative or primary research.</p>
+        <button type="button" class="bg-primary text-light">Click</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="team" id="team">
+
+  <div class="container mt-5">
+    <h1 class="text-center">Our <span class="text-primary">Team</span></h1>
+    <hr / class="w-25 m-auto">
+
+    <div class="row mt-5 text-center">
+
+       <div class="first col-sm-12 col-md-3 col-12 col-lg-3 border border-dark pt-5 mx-5">
+        <img src="image.jpg" alt="" srcset="" class="img-fluid rounded-circle border w-50 border-primary p-2">
+        <h5 class="mt-3">Pallavi shah</h5>
+        <p>Frontend developer</p>
+        <button type="button" class="text-light bg-primary">Follow</button>
+       </div>
+
+       <div class="first col-sm-12 col-md-3 col-12 col-lg-3 border border-dark pt-5 mx-5">
+        <img src="image(1).jpg" alt="" srcset="" class="img-fluid rounded-circle border  w-50 border-primary p-2">
+        <h5 class="mt-3">Khushboo yadav</h5>
+        <p>Frontend developer</p>
+        <button type="button" class="text-light bg-primary">Follow</button>
+       </div>
+
+       <div class="first col-sm-12 col-md-3 col-12 col-lg-3 border border-dark pt-5 mx-5">
+        <img src="image(2).jpg" alt="" srcset="" class="img-fluid rounded-circle border  w-50 border-primary p-2">
+        <h5 class="mt-3">Priyanka shah</h5>
+        <p>Frontend developer</p>
+        <button type="button" class="text-light bg-primary mb-5">Follow</button>
+       </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="contact" id="contact">
+  <div class="container mt-5">
+     <h1 class="text-center "> Feel free <span class="text-primary">to connect</span></h1>
+     <hr / class="w-25 m-auto">
+     <div class="row  mt-5">
+      <div class="form  col-sm-12 col-md-4 col-lg-6 col-12">
+        <form action="">
+          <div class="col-md-6 border">
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email" placeholder="Enter email" class="w-100"> 
+          </div>
+        <div>
+            <label for="Password">Password</label><br>
+            <input type="text" name="Password" id="Password" placeholder="Enter password " class="w-50">
+        </div>
+        <div class="col-md-6 ">
+          <label for="address">Address</label>
+          <input type="text" name="address" id="address" placeholder="Example:Near golden temple.." class="w-100">
+         </div>  
+
+         <div class="col-md-6 ">
+          <label for="city">City</label><br>
+          <input type="text" name="city" id="city" placeholder=" City">
+          <label for="state" class="w-100">state</label><br>
+          <select name="" id="">
+            <option value="india">India</option>
+            <option value="london">London</option>
+            <option value="paris">Paris</option> 
+          </select>  
+         </div>
+         <div class="col-md-6 ">
+          
+          <input type="radio" class="my-3"> Check me out<br>
+          <label for="">Zip</label><br>
+            <input type="text" name="zip" id="zip">
+
+        </div>
+        <button type="button" class="bg-primary text-light mb-2 mt-3 border border-light p-2 rounded">Sing in</button>
+
+        </form> 
+        
+
+      </div>
+
+      <div class="form col-sm-12 col-md-4 col-lg-6 col-12">
+       <img src="image.jpg" alt="" srcset="" class="img-fluid w-80 pt-5">
+      </div>
+     </div>
+  </div>
+</div>
+</body>
+</html>
