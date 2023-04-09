@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: rgb(68, 56, 77);
+  
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* height: 100vh;*/
+    position: relative;
+    z-index: 1;
+}
+.clocksection{
+    padding: 15px;
+    position: relative;
+    z-index: 2;
+    margin-top: 303px;
+}
+.clocksection:hover{
+    background:black;
+    box-shadow: 0px 0px 30px  #2E94E3;
+   
+}
+#clock{
+    color: white;
+    font-size: 80px;
+}
+#date{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+   
+}
+.conic{
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+   /* animation-delay: 1s;*/
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: conic-gradient(rgb(43, 126, 179));
+    z-index: 3;
+    border-radius: 100px;
+    float: left;
+ margin:10px 0px 0px 30px;
+
+}
+@keyframes example{
+    0% {background-color: rgb(224, 104, 104);}
+    25% {background-color: rgb(234, 234, 118);}             
+    50% {background-color: rgb(241, 190, 94);}
+    75% {background-color: rgb(144, 243, 144);}
+    90% {background-color: rgb(109, 217, 234);}
+}
+.container h1{
+   font-size: 100px;
+   color: rgb(54, 188, 215);
+}
+.container h1:hover{
+    box-shadow: 0px 0px 30px  #2E94E3;
+}
+.conic1{
+    width: 100px;
+    height: 100px;
+    animation: example1 4s infinite alternate;
+    z-index: 4;
+    border-radius: 100px;
+    float: right;
+    margin-right: 20px;
+}
+@keyframes example1{
+    0% {background-color: rgb(200, 200, 39);}
+    25% {background-color: rgb(193, 48, 48);}           
+    50% {background-color: rgb(38, 192, 203);}
+    75% {background-color: rgb(19, 43, 97);}
+    90% {background-color: rgb(56, 109, 63);}
+}
+.conic2{
+    width: 100px;
+    height: 100px;
+    animation: example2 4s infinite alternate;
+    z-index: 5;
+    border-radius: 100px;
+    float: right;
+    margin:100px  300px 0px 0px;
+}
+@keyframes example2{
+    0% {background-color: rgb(124, 30, 212)}
+    25% {background-color: rgb(73, 140, 123);}             
+    50% {background-color: rgb(0, 0, 0);}
+    75% {background-color: rgb(212, 47, 66);}
+    90% {background-color: rgb(192, 204, 28);}
+}
+.conic3{
+    width: 100px;
+    height: 100px;
+    animation: example3 4s infinite alternate;
+    z-index: 5;
+    border-radius: 100px;
+    float: right;
+    margin:100px  300px 0px 0px;
+}
+@keyframes example3{
+    0% {background-color: rgb(0, 0, 0);}
+    25% {background-color: rgb(54, 155, 198);}             
+    50% {background-color: rgb(210, 205, 194);}
+    75% {background-color: rgb(123, 32, 188);}
+    90% {background-color: rgb(175, 58, 15);}
+}
+.conic4{
+    width: 100px;
+    height: 100px;
+    animation: example4 4s infinite alternate;
+    z-index: 5;
+    border-radius: 100px;
+    float: left;
+    margin:0px 0px 100px 50px;
+}
+@keyframes example4{
+    0% {background-color: rgb(150, 69, 69);}
+    25% {background-color: rgb(147, 23, 143);}             
+    50% {background-color: rgb(43, 40, 43);}
+    75% {background-color: rgb(28, 165, 28);}
+    90% {background-color: rgb(21, 58, 206);}
+}
+.conic5{
+    width: 100px;
+    height: 100px;
+    animation: example5 4s infinite alternate;
+    z-index: 5;
+    border-radius: 100px;
+    float: left;
+    margin: 0px 0px 0px 300px;
+    
+}
+@keyframes example5{
+    0% {background-color: rgb(104, 11, 11);}
+    25% {background-color: rgb(42, 65, 149);}             
+    50% {background-color: rgb(164, 111, 12);}
+    75% {background-color: rgb(19, 21, 19);}
+    90% {background-color: rgb(167, 45, 141);}
+}

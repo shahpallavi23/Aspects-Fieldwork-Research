@@ -1,0 +1,265 @@
+/*navbar*/
+.section{
+    background-color:#fff;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+  }
+  .section  ul li a{
+      color: black;
+  }
+  .section ul li a:hover{
+      color: gray;
+  }
+  .section button{
+      border: 1px solid rgb(99, 214, 89);
+      background-color: rgb(39, 217, 39);
+      color: #fff;
+      position: relative;
+      margin-top: 12px;
+      font-size: 13px;
+      border-radius:4px;
+  }
+  .section button:hover{
+      background-color: rgb(11, 149, 55);
+  }
+ 
+  
+
+  /*home*/
+  .box1{
+      background-color: rgb(105, 180, 233);
+  }
+  
+  .box2{
+      width: 50%;
+      height: 600px;
+      background-color: rgb(217, 142, 3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      padding-top: 40px;
+  }
+  
+  .box2 h1{
+      font-size: 60px;
+  }
+  .box2 p{
+      font-size: 20px;
+      padding-left: 15px;
+  }
+  
+  .sliderCont{
+      width: calc(50vw + 50vw + 50vw);
+      display: flex;
+      position: relative;
+      left: -50vw;
+      animation: sliderAnimation 5s infinite;
+  }
+  
+  .slider{
+      width: 50vw;
+      margin-right: 10px;
+      padding: 30px;
+  }
+  
+  @keyframes sliderAnimation {
+      0%{
+          left: 50vw;
+      }
+      20%{
+          left: 50vw;
+      }
+      30%{
+          left: 0vw;
+      }
+      59%{
+          left: 0vw;
+      }
+      60%{
+          left: -50vw;
+      }
+      99%{
+          left: -50vw;
+      }
+      100%{
+          left: 50vw;;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*about us*/
+  .box4{
+      font-size: 17px;
+  }
+  .container1{
+      width: 100%;
+      padding: 0px 30px 0px 30px;
+  }
+  
+  /*servixe*/
+  .demo3 button{
+      border: 1px solid rgb(99, 214, 89);
+      background-color: rgb(39, 217, 39);
+      color: #fff;
+      position: relative;
+      border-radius:4px;
+      margin:10px 0px 0px 150px;
+      padding-bottom: 2PX;
+  
+  }
+  .demo3 button:hover{
+      background-color: rgb(11, 149, 55);
+  }
+  /*industry*/
+  .demo5 button{
+      border: 1px solid rgb(99, 214, 89);
+      background-color: rgb(39, 217, 39);
+      color: #fff;
+      position: relative;
+      border-radius:4px;
+      margin:10px 0px 0px 510px;
+      padding-bottom: 2PX;
+  }
+  .demo5 button:hover{
+      background-color: rgb(11, 149, 55);
+  }
+  
+  /*contact us*/
+  .demo7 button{
+      border: 1px solid rgb(99, 214, 89);
+      background-color: rgb(39, 217, 39);
+      color: #fff;
+      position: relative;
+      border-radius:4px;
+      margin:10px 0px 0px 510px;
+      padding-bottom: 2PX;
+  }
+  .demo7 button:hover{
+      background-color: rgb(11, 149, 55);
+  }
+  /*footer*/
+  .demo8 h5{
+      text-decoration: underline orange 2px;
+  }
+  .box5 ul li a{
+     
+      color: rgb(224, 55, 199);
+      text-decoration: none;
+  }
+  .box5 li a:hover{
+      text-decoration: underline 1px  rgb(224, 55, 199);
+      color: rgb(224, 55, 199);
+  }
+  
+  .box6 ul li a{
+      color: rgb(213, 64, 113);
+      text-decoration: none;
+  }
+  .box6 ul li a:hover{
+      text-decoration: underline 1px  rgb(213, 64, 113);
+  }
+  .box7 ul li a{
+      color: rgb(224, 55, 199);
+      text-decoration: none;
+  }
+  .box7 ul li a:hover{
+      text-decoration: underline 1px  rgb(224, 55, 199);
+  }
+  
+  .icons{
+      display: flex;
+      list-style:none;
+  }
+  .demo9 ul li a{
+      margin:5px 5px 0px 5px;
+      border: 2px solid #fff;
+      float: right;
+      border-radius: 20px;
+      padding: 0px;
+      overflow: hidden;
+  }
+  .fa-facebook{
+      color:rgb(61, 61, 151);
+      transition: transform 1s;
+      background-color: #fff;
+  }
+  .fa-facebook:hover{
+      transform: rotate(360deg) translateZ(0);
+      background-color: rgb(61, 61, 151);
+      color: #fff;
+      border: 1px solid rgb(61, 61, 151) ;
+  }
+  .fa-twitter{
+      background-color: rgb(88, 199, 236);
+      transition: transform 1s;
+      color: #fff;
+  }
+  .fa-twitter:hover{
+      color: rgb(88, 199, 236);
+      transform: rotate(360deg) translateZ(0);
+      background-color: #fff;
+      border: 1px solid rgb(88, 199, 236);
+  }
+  .fa-linkedin{
+      background-color: rgb(31, 134, 237);
+      color: #fff;
+      transition:transform 1s;
+      padding: 0px 3px 0px 3px;
+  }
+  .fa-linkedin:hover{
+       transform: rotate(360deg) translateZ(0);
+       background-color: #fff;
+       color:rgb(31, 134, 237) ;
+       border:  1px solid rgb(31, 134, 237);
+  }
+  .fa-youtube{
+      background-color: rgb(243, 43, 43);
+      color: #fff;
+      transform: transform 1s;
+  }
+  .fa-youtube:hover{
+      transform: rotate(360deg) translateZ(0);
+      color:rgb(243, 43, 43);
+      background-color: #fff;
+      border: 1px solid rgb(243, 43, 43) ;
+  }
+  .fa-instagram{
+      background-color: rgb(83, 83, 214);
+      color: #fff;
+      transition: transform 1s;
+      padding: 0px 2px 0px 2px;
+  }
+  .fa-instagram:hover{
+      color:rgb(83, 83, 214) ;
+      background-color:#fff;
+      transform: rotate(360deg) translateZ(0);
+      border: 1px solid rgb(83, 83, 214);
+  
+  }
+  .conainer-fluid6{
+      width: 100%;
+      background-color: #000;
+      margin-top: 50px;
+      height: 60px;
+  }
+  .conainer-fluid6 p{
+      color: grey;
+      padding-left: 150px;
+      font-size: 16px;
+      padding-top: 20px;
+  }
+  
+  .conainer-fluid6 b:hover{
+      text-decoration: underline 1px solid #fff;
+  }
+  
+  

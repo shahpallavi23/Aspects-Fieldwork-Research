@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+
+<div class="conic"></div>
+<div class="conic2"></div>
+
+<div class="section">
+    
+<div class="container"><h1>Digital clock</h1></div>
+
+    <div class="clocksection">
+    <p id="date">this</p>
+    <p id="clock">00:00:00</p>
+</div>
+</div>
+<script>
+    function updateClock(){
+        var date= new Date();
+        var hours=date.getHours();
+        var mintues=date.getMinutes();
+        var seconds=date.getSeconds();
+        period="AM";
+
+        if (hours > 12){
+            hours-=12;
+            period="PM"
+        }
+        if(hours==0){
+            hours=12;
+            period="AM";  
+        }
+        hours=hours<10? "0"+ hours:hours;
+        mintues=mintues<10 ?"0"+mintues:mintues;
+        seconds=seconds<10 ?"0"+seconds:seconds;
+        var values=hours+":"+mintues+":"+seconds+""+period;
+        document.getElementById("clock").innerHTML=values;
+    }
+    setInterval(updateClock,1);
+
+   function dayandMonth(){
+    var set=new Date();
+    var Months = ["January","February","March","April","May","June","July","August","September","October","November","December"]; 
+    var weeks= ["Sunday","Monday","Teuesday","Wednesday","Thursday","Friday","Saturday"];
+    var day= set.getDay();
+    var date=set.getDate();
+    var month=set.getMonth();
+    var year=set.getFullYear();
+    var DayMonth=weeks[day]+","+date+""+Months[month]+""+year ;
+    document.getElementById("date").innerHTML= DayMonth;
+   }
+    dayandMonth();
+</script>
+
+<div class="conic1"></div>
+<div class="conic3"></div>
+<div class="conic4"></div>
+<div class="conic6"></div>
+<div class="conic5"></div>
+</body>
+</html>
